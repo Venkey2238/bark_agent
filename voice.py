@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
-    api_key="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"
+    api_key="" #I have removed my API key for security reasons
 )
 
 def generate_pitch(title, description, location):
